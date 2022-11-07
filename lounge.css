@@ -51,11 +51,28 @@ h2 {
   float: right;
 }
 
+#elixirs2 {
+  border-width: thick;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 500px;
+  padding: 5em;
+  margin: 0em;
+  text-align: left;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  line-height: 2em;
+}
+
 #elixirs h2 {
   color: black;
 }
 
 #elixirs h3 {
+  color: #d12c47;
+}
+
+#elixirs2 h2 {
   color: #d12c47;
 }
 
