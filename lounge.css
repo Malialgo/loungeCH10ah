@@ -89,6 +89,7 @@ h2 {
 
 .artist {
   font-weight: bold;
+  color: #d12c47;
 }
 
 #elixirs a:link {
@@ -100,6 +101,46 @@ h2 {
 }
 
 #elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+#directions {
+  width: 50%;
+  padding: 0px 20px 30px 10px;
+  margin: 0px 20px 30px 10px;
+  border: thin solid #007e7e;
+  background: white url(images/cocktail.gif) repeat-x;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  box-sizing: content-box;
+}
+
+#directions2 {
+  width: 50%;
+  padding: 0px 20px 30px 10px;
+  margin: 0px 20px 30px 10px;
+  border: thin solid #007e7e;
+  background: white url(images/cocktail.gif) repeat-x;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.dirpage :link {
+  color: #007e7e;
+}
+
+.dirpage :visited {
+  color: #333333;
+}
+
+.dirpage :hover {
   background: #f88396;
   color: #0d5353;
 }
